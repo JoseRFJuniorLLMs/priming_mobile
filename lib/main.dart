@@ -27,8 +27,8 @@ class CameraExample extends StatefulWidget {
 }
 
 class _CameraExampleState extends State<CameraExample> {
-  CameraController controller;
-  Future<void> initializeControllerFuture;
+  late CameraController controller;
+  late Future<void> initializeControllerFuture;
 
   @override
   void initState() {
